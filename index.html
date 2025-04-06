@@ -42,6 +42,14 @@
   </main>
 </div>
 
-<script src="js/script.js"></script>
+<script src="js/script.js">
+  function showSection(id) {
+  const sections = document.querySelectorAll('.section');
+  sections.forEach(section => section.classList.remove('active'));
+
+  document.getElementById(id).classList.add('active');
+}
+
+</script>
 </body>
 </html>
