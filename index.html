@@ -12,10 +12,17 @@
   <nav class="sidebar">
     <h2>Menu</h2>
     <ul>
-      <li><a href="#" onclick="showSection('inicio')">Início</a></li>
-      <li><a href="#" onclick="showSection('programas')">Programas</a></li>
-      <li><a href="#" onclick="showSection('config')">Configurações</a></li>
-      <li><a href="#" onclick="showSection('sobre')">Sobre</a></li>
+      <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li class="submenu">
+                    <a href="#">Guias</a> <!-- Este é o item principal do submenu -->
+                    <ul class="sub">
+                        <li><a href="#">Instalação</a></li>
+                        <li><a href="#">Configurações</a></li>
+                        <li><a href="#">Atalhos</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contato</a></li>
     </ul>
   </nav>
 
