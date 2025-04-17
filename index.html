@@ -101,6 +101,30 @@
         background-color: #fff;
        } 
 
+
+
+
+       .descricao {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-left: 5px solid #2980b9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+
+.callout {
+    background-color: #dff9fb;
+    border-left: 5px solid #00a8ff;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #2d3436;
+}
+
+
     </style>
 </head>
 <body>
@@ -114,7 +138,7 @@
     <!-- Navegação -->
     <nav>
         
-        <a href="#introducao">Introdução</a>
+        <a href="#" onclick="showSection('introducao')">Introdução</a>
 
         <div class="dropdown">
             <a href="#">Instalação</a>
@@ -141,8 +165,28 @@
         <!-- Seção Introdução -->
         <section id="introducao" class="section">
             <h2>Introdução</h2>
-            <p>Este projeto visa fornecer ajuda para os técnicos a configurar corretamente o Windows 10</p>
+        
+            <div class="descricao">
+                <p>
+                    Esta documentação tem como objetivo orientar técnicos e profissionais de TI na correta configuração do sistema operacional <strong>Windows 10</strong>. 
+                    Aqui você encontrará um passo a passo detalhado sobre instalação, otimização e ajustes essenciais para garantir desempenho, segurança e estabilidade.
+                </p>
+        
+                <p>
+                    Seguindo este guia, você terá uma base sólida para realizar configurações em diferentes máquinas de forma padronizada e eficiente. 
+                    A proposta é entregar uma experiência simples, rápida e visualmente objetiva para que mesmo usuários com pouca experiência possam aplicar as etapas com sucesso.
+                </p>
+        
+                <p>
+                    Explore as seções no menu acima para navegar por tópicos como: Instalação de drivers, Ajustes de energia, Configurações de segurança, entre outros.
+                </p>
+            </div>
+        
+            <div class="callout">
+                <p><strong>Dica:</strong> Salve esta página em seus favoritos ou exporte em PDF para consultas futuras!</p>
+            </div>
         </section>
+        
 
         <!-- Seção Instalação -->
         <section id="instalacao" class="section">
